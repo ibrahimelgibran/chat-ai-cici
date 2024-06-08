@@ -42,10 +42,7 @@ export default function Chat() {
       };
 
       setIsLoading(true);
-      const response = await fetch(
-        "https://chat-aoba-server.vercel.app/aoba",
-        options,
-      );
+      const response = await fetch("https://chat-cici.vercel.app/", options);
       const data = await response.json();
 
       setChatHistory((previousChat) => [
