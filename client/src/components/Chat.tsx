@@ -42,7 +42,10 @@ export default function Chat() {
       };
 
       setIsLoading(true);
-      const response = await fetch("https://chat-cici.vercel.app/", options);
+      const response = await fetch(
+        "https://chat-ai-server-nine.vercel.app/",
+        options,
+      );
       const data = await response.json();
 
       setChatHistory((previousChat) => [
