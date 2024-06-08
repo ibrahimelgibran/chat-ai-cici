@@ -43,7 +43,7 @@ export default function Chat() {
 
       setIsLoading(true);
       const response = await fetch(
-        "https://chat-cici-server.vercel.app",
+        "https://chat-cici-server.vercel.app/aoba",
         options,
       );
       const data = await response.json();
