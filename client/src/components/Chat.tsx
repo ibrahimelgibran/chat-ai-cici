@@ -3,7 +3,7 @@ import { LegacyRef, useEffect, useState } from "react";
 import {
   CircleFadingPlus,
   Coffee,
-  Github,
+  Globe,
   Info,
   SendHorizontal,
 } from "lucide-react";
@@ -99,13 +99,13 @@ export default function Chat() {
       <div className="flex h-full flex-col justify-evenly bg-gradient-to-br from-slate-950 to-slate-900">
         <div className="flex h-14 justify-between px-4 py-3 text-sm">
           <a
-            href="https://github.com/reynaldomarchell/chat-aoba"
+            href="https://www.ibrahimelgibran.com/"
             target="_blank"
             rel="noreferrer"
             className="tooltip tooltip-bottom relative flex items-center rounded-full bg-slate-800 p-2 shadow-lg outline-none transition-colors duration-300 ease-linear hover:bg-slate-700"
-            data-tip="GitHub"
+            data-tip="Author"
           >
-            <Github />
+            <Globe />
           </a>
           <button
             onClick={newChat}
@@ -123,9 +123,9 @@ export default function Chat() {
             {infoOpen && (
               <div className="absolute right-0 top-10 z-10 w-48 rounded-lg bg-slate-800 p-2 shadow-lg">
                 <p className=" text-xs text-slate-200">
-                  With <span className="text-indigo-400">Aoba</span> you can get
+                  With <span className="text-indigo-400">Cici</span> you can get
                   information quickly, answer questions, and even help with your
-                  daily work. <span className="text-indigo-400">Aoba</span> is
+                  daily work. <span className="text-indigo-400">Cici</span> is
                   designed to provide an interactive and responsive experience,
                   so you can feel like you are talking to your own friends. 💖
                 </p>
